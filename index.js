@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 // Route dasar
 app.get('/', (req, res) => {
-  res.send('Halo dari server Express!');
+  res.send('Halo dari !');
 });
 // Contoh route tambahan
 app.get('/api/data', (req, res) => {
@@ -15,3 +15,4 @@ app.get('/api/data', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server berjalan di http://localhost:${PORT}`);
 });
+
