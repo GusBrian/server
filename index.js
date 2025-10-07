@@ -10,13 +10,14 @@ app.get('/', (req, res) => {
 // Contoh route tambahan
 app.get('/api/data', (req, res) => {
   res.json({ message: 'Ini adalah data dari API' });
-  app.get('/api/data', (req, res) => {
-  res.json({ message: 'Ini adalah data dari API' });
+  app.get('/api/maka', (req, res) => {
+  res.json({ message: 'Ini adalah data dari ' });
 });
 // Menjalankan server
 app.listen(PORT, () => {
   console.log(`Server berjalan di http://localhost:${PORT}`);
 });
+
 
 
 
